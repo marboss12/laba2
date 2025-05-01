@@ -1,13 +1,11 @@
-    #include <iostream>
-    #include <string>
-    using namespace std;
-
+//программа ввода и вывода имени пользователя
+#include <iostream>
+    #include <string> 
     int main() {
-        string name;
-        cout << "Введите ваше имя: ";
-        cin >> name;
-        cout << "Hello, world from @" << name << endl;
+        std::string name;
+        std::cout << "Введите ваше имя: ";
+        std::cin >> name; //ввод имени пользователя
+        std::cout << "Hello, world from @" << name << std::endl;
+      // Используем std::cout и std::endl для избежания конфликтов имен
         return 0;
     }
-    
-
