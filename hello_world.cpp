@@ -1,6 +1,6 @@
 //программа ввода и вывода имени пользователя
 #include <iostream>
-    #include <string>
+    #include <string> 
     int main() {
         std::string name;
         std::cout << "Введите ваше имя: ";
