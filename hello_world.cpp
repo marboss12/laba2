@@ -1,4 +1,5 @@
-  #include <iostream>
+//программа ввода и вывода имени пользователя
+#include <iostream>
     #include <string>
     int main() {
         std::string name;
